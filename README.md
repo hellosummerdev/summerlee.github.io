@@ -7,7 +7,7 @@ This is my personal resume and portfolio page built with the **Start Bootstrap R
 안녕하세요. 웹 백엔드를 중심으로 실무 경험을 쌓아온 개발자입니다.  
 이 저장소는 제 기술 스택, 프로젝트 이력, 교육 이수 내용을 정리한 이력 페이지입니다.
 
-🔗 [Visit Portfolio](https://summerlee.github.io)
+🔗 [Visit Portfolio](https://hellosummerdev.github.io)
 
 ## 주요 내용
 - 경력 및 프로젝트 소개
