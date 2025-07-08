@@ -1,0 +1,50 @@
+//
+// Global
+//
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+
+
+body {
+    padding-top: $navbar-base-height;
+    color: $gray-600;
+    font-family: 'Pretendard', 'Saira Extra Condensed', 'Muli', sans-serif;
+}
+
+@include media-breakpoint-up(lg) {
+    body {
+        padding-top: 0;
+        padding-left: $sidebar-base-width;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+h1 {
+    line-height: 1;
+}
+
+p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+.subheading {
+    font-family: $headings-font-family;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+
+    :lang(ko) & {
+        font-family: 'Pretendard', sans-serif;
+        text-transform: none;
+    }
+}
